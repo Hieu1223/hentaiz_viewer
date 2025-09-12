@@ -20,15 +20,15 @@ Features:
 * Provider
 * HTTP
 
-## Getting Started
 
 ### Prerequisites
 
 * Flutter SDK
-* A working backend server
-
+- Node JS
 ### Installation
+### Part 1: Running the Flutter App
 
+git clone https://github.com/your_username/hentai-viewer-app.git
 1. Clone the repo:
    ```bash
    git clone https://github.com/your_username/hentai-viewer-app.git
@@ -39,7 +39,6 @@ Features:
     ```bash
     flutter pub get
 
-
 4. Set your backend server URL:
 Open `lib/resource.dart` and set the `baseUrl`:
     ```dart
@@ -48,5 +47,17 @@ Open `lib/resource.dart` and set the `baseUrl`:
     }
 
 5.Run the app:
-     ```bash
-         flutter run
+    ```bash
+    flutter run
+
+### Part 2: Running the Backend Server
+1. Navigate into server folder:
+      ```bash
+      cd server
+2.Install dependencies:
+      ```bash
+      npm install
+      
+3.Run the server:
+      ```bash
+      node index.js
