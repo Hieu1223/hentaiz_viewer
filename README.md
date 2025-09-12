@@ -48,5 +48,5 @@ Open `lib/resource.dart` and set the `baseUrl`:
     }
 
 5.Run the app:
-  ```bash
-      flutter run
+     ```bash
+         flutter run
