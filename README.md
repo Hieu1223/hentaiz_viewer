@@ -51,13 +51,10 @@ Open `lib/resource.dart` and set the `baseUrl`:
     flutter run
 
 ### Part 2: Running the Backend Server
+
 1. Navigate into server folder:
-      ```bash
-      cd server
+   ```bash
+   cd server
 2.Install dependencies:
-      ```bash
-      npm install
-      
-3.Run the server:
-      ```bash
-      node index.js
+   ```bash
+   npm install
