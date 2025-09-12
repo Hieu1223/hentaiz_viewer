@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\minhh\Downloads\Projects\Quick Common side projects for cv\hentaiz_scrapper\app\hentaiz_viewer\build\windows\x64\CMakeFiles\0e5f88020c88be02ef9a2f7230260de9\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\minhh\Downloads\Projects\Quick Common side projects for cv\hentaiz_scrapper\app\hentaiz_viewer\build\windows\x64\CMakeFiles\a3467b0067d5c218f17af17dc66a7036\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\minhh\Downloads\Projects\Quick Common side projects for cv\hentaiz_scrapper\app\hentaiz_viewer\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\minhh\Downloads\Projects\Quick Common side projects for cv\hentaiz_scrapper\app\hentaiz_viewer\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E11A5A78-82DA-3385-B45A-6164D3FE4991}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

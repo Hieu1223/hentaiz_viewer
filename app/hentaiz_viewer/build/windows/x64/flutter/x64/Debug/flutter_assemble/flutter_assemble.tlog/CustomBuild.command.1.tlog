@@ -1,0 +1,28 @@
+^C:\USERS\MINHH\DOWNLOADS\PROJECTS\QUICK COMMON SIDE PROJECTS FOR CV\HENTAIZ_SCRAPPER\APP\HENTAIZ_VIEWER\BUILD\WINDOWS\X64\CMAKEFILES\0E5F88020C88BE02EF9A2F7230260DE9\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\minhh\Downloads\Projects\flutter "PROJECT_DIR=C:\Users\minhh\Downloads\Projects\Quick Common side projects for cv\hentaiz_scrapper\app\hentaiz_viewer" FLUTTER_ROOT=C:\Users\minhh\Downloads\Projects\flutter "FLUTTER_EPHEMERAL_DIR=C:\Users\minhh\Downloads\Projects\Quick Common side projects for cv\hentaiz_scrapper\app\hentaiz_viewer\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\minhh\Downloads\Projects\Quick Common side projects for cv\hentaiz_scrapper\app\hentaiz_viewer" "FLUTTER_TARGET=C:\Users\minhh\Downloads\Projects\Quick Common side projects for cv\hentaiz_scrapper\app\hentaiz_viewer\lib\main.dart" DART_DEFINES=RkxVVFRFUl9WRVJTSU9OPTMuMzUuMQ==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049MjBmODI3NDkzOQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049MWU5YTgxMWJmOA==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My45LjA= DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\minhh\Downloads\Projects\Quick Common side projects for cv\hentaiz_scrapper\app\hentaiz_viewer\.dart_tool\package_config.json" C:/Users/minhh/Downloads/Projects/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MINHH\DOWNLOADS\PROJECTS\QUICK COMMON SIDE PROJECTS FOR CV\HENTAIZ_SCRAPPER\APP\HENTAIZ_VIEWER\BUILD\WINDOWS\X64\CMAKEFILES\A3467B0067D5C218F17AF17DC66A7036\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MINHH\DOWNLOADS\PROJECTS\QUICK COMMON SIDE PROJECTS FOR CV\HENTAIZ_SCRAPPER\APP\HENTAIZ_VIEWER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/minhh/Downloads/Projects/Quick Common side projects for cv/hentaiz_scrapper/app/hentaiz_viewer/windows" "-BC:/Users/minhh/Downloads/Projects/Quick Common side projects for cv/hentaiz_scrapper/app/hentaiz_viewer/build/windows/x64" --check-stamp-file "C:/Users/minhh/Downloads/Projects/Quick Common side projects for cv/hentaiz_scrapper/app/hentaiz_viewer/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,2 @@
+git rm -r --cached app/hentaiz_viewer/.dart_tool
+.dart_tool/
