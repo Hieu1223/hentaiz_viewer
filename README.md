@@ -1,56 +1,68 @@
-That evening I spent building a hnti website.
+<a id="readme-top"></a>
 
-What it does
-Browse a grid of hnti videos
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stars][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![License][license-shield]][license-url]
 
-Pagination support
+<br />
+<div align="center">
+  <h3 align="center">H*nt*i Video Viewer App</h3>
+  <p align="center">
+    Browse, search, and watch h*nt*i videos in a Flutter app
+    <br />
+    <a href="#getting-started"><strong>Get Started »</strong></a>
+    <br /><br />
+    <a href="#usage">View Usage</a>
+    &middot;
+    <a href="#contact">Contact</a>
+  </p>
+</div>
 
-Search videos without leaving the main page
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-Watch videos inside the app
+## About The Project
 
-Simple login/register system
+That evening I spent building a h*nt*i website in Flutter.
 
-Comments for videos
+Features:
+* Browse a grid of h*nt*i videos
+* Pagination support
+* Search videos without leaving the main page
+* Watch videos inside the app
+* Simple login/register system
+* Comments for videos
 
-Frontend Setup (Flutter)
-Clone the repo
+### Built With
 
-git clone <your-repo-url>
-cd hentaiz_viewer
+* Flutter
+* Dart
+* Provider
+* HTTP
 
-Set your backend server URL
+## Getting Started
 
-Open lib/resource.dart and set the baseUrl to your backend server:
+### Prerequisites
 
-static const String baseUrl = "http://YOUR_SERVER_IP_OR_DOMAIN:5000";
+* Flutter SDK
+* A working backend server
 
-Install Flutter dependencies
+### Installation
 
-flutter pub get
-
-Run the app
-
-flutter run
-
-Backend Setup (Node.js + SQLite3)
-Navigate to the backend folder (if separate) or project root.
-
-Install dependencies
-
-npm install
-
-Start the server
-
-node server.js
-
-Server features
-Provides paginated video list
-
-Returns video URLs
-
-Handles user login/register
-
-Supports comments for videos
-
-Supports search queries
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your_username/hentai-viewer-app.git
